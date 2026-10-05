@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.KPOffline.app"
-    compileSdk 35
+   namespace "com.KPOffline.app"
+    compileSdk 36        // Ubah dari 35 menjadi 36
 
     defaultConfig {
         applicationId "com.KPOffline.app"
-        minSdkVersion 26        // Mendukung Android 8.0 (API 26) hingga Android 15 (Latest)
-        targetSdkVersion 35     // Target Android 15 Terbaru
+        minSdkVersion 26
+        targetSdkVersion 35  // targetSdk tetap 35 tidak masalah
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
