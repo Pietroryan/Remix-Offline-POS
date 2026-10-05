@@ -1,0 +1,8 @@
+{
+  "name": "Remix Offline POS",
+  "description": "Full-featured offline-first Point of Sale application with inventory, multi-unit/multi-price products, checkout, shift management, sales/purchase returns, reports, and import/export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
